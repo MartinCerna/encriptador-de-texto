@@ -1,4 +1,4 @@
-// Arreglos globales para reemplazos y sustitutos
+// Arreglos globales para vocales y claves
 const vocales = ['e', 'i', 'a', 'o', 'u'];
 const claves = ['enter', 'imes', 'ai', 'ober', 'ufat'];
 
