@@ -6,6 +6,9 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Encriptador de Texto</title>
    <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -18,18 +21,20 @@
    </header>
    <div class="container">
       <section class="input-text">
-         <form action="">
+         <form class="form" action="">
             <textarea name="" id="" placeholder="Ingrese el texto aquí"></textarea>
             <div class="alert-msj">
                <div class="important"><img src="assets/alerta.svg" alt="alerta"><span>Solo letras minúsculas y sin
                      acentos</span></div>
             </div>
-            <input type="submit" value="Encrypt">
-            <input type="submit" value="Decrypt">
+            <div class="btn-container">
+               <input type="submit" class="encrypt" value="Encriptar">
+               <input type="submit" class="decrypt" value="Desencriptar">
+            </div>
          </form>
       </section>
-      <section class="output-text">
-         <img class="img-output" src="assets/muneco.png" alt="img-muñeco">
+      <section class="output">
+         <img class="output-img" src="assets/muneco.png" alt="img-muñeco">
          <h3 class="output-title">Ningúin mensaje fue encontrado</h3>
          <p class="output-text">Ingresa el texto que desees encriptar o desencriptar</p>
       </section>
