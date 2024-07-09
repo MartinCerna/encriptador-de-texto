@@ -42,7 +42,6 @@ function desencriptar(mensajeEncriptado) {
 }
 
 //Funcion de borrar elementos
-
 function displayOutput() {
    document.querySelector('.output-img').style.display = 'none';
    document.querySelector('.output-title').style.display = 'none';
