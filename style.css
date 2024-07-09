@@ -67,7 +67,7 @@ input {
    height: 67px;
    border: 1px solid var(--dark-blue);
    border-radius: 24px;
-   background-color: #D8DFE8;
+   background-color: transparent;
    font-size: 16px;
    color: var(--dark-blue);
 }
@@ -75,6 +75,14 @@ input {
 .encrypt {
    color: white;
    background-color: var(--dark-blue);
+}
+
+.encrypt:hover{
+   background-color: #072B61;   
+}
+
+.decrypt:hover{
+   background-color: #D8DFE8;
 }
 
 .output {
