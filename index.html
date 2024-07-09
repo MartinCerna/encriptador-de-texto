@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Encriptador de Texto</title>
 </head>
+
 <body>
    <header id="header">
       <div class="logo">
@@ -13,7 +15,25 @@
          </a>
       </div>
    </header>
-   <div class="container"></div>
+   <div class="container">
+      <section class="input-text">
+         <form action="">
+            <textarea name="" id="" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="alert-msj">
+               <div class="important"><img src="assets/alerta.svg" alt="alerta"><span>Solo letras minúsculas y sin
+                     acentos</span></div>
+            </div>
+            <input type="submit" value="Encrypt">
+            <input type="submit" value="Decrypt">
+         </form>
+      </section>
+      <section class="output-text">
+         <img class="img-output" src="assets/muñeco.png" alt="img-muñeco">
+         <h3 class="output-title">Ningúin mensaje fue encontrado</h3>
+         <p class="output-text">Ingresa el texto que desees encriptar o desencriptar</p>
+      </section>
+   </div>
    <footer id="footer"></footer>
 </body>
+
 </html>
